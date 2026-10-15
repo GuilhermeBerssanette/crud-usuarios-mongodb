@@ -1,0 +1,29 @@
+{
+  "name": "crud-usuarios-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js", 
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeBerssanette/crud-usuarios-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeBerssanette/crud-usuarios-mongodb/issues"
+  },
+  "homepage": "https://github.com/GuilhermeBerssanette/crud-usuarios-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.11.2",
+    "nodemon": "^3.1.14"
+  }
+}
